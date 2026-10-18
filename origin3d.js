@@ -10,6 +10,7 @@ function fallback2D(err) {
   if (!wrap) return;
   wrap.classList.remove('is-3d');
   wrap.querySelectorAll('.origin-3d, .mc-hud, .mc-loading, .mc-portalfx').forEach((el) => el.remove());
+  if (err && err.noWebGL) webglNote();
   if (!document.querySelector('script[data-origin-2d]')) {
     const s = document.createElement('script');
     s.src = 'origin.js';
@@ -18,12 +19,32 @@ function fallback2D(err) {
   }
 }
 
+// Sem WebGL o visitante vê a versão 2D: avisa que existe a cena 3D e como liberar
+function webglNote() {
+  const stage = wrap.querySelector('.origin-stage');
+  if (!stage || stage.querySelector('.webgl-note')) return;
+  const L = (pt, en) => (window.i18n ? window.i18n.t(pt, en) : pt);
+  const note = document.createElement('div');
+  note.className = 'webgl-note';
+  note.setAttribute('role', 'note');
+  const render = () => {
+    note.innerHTML = `<b>${L('Esta cena é em 3D', 'This scene is 3D')}</b><span>${L(
+      'Ative a aceleração de hardware (WebGL) no navegador e recarregue a página para ver o mundo do Minecraft.',
+      'Turn on hardware acceleration (WebGL) in your browser and reload the page to see the Minecraft world.'
+    )}</span><button type="button" aria-label="${L('Fechar aviso', 'Close notice')}">×</button>`;
+    note.querySelector('button').addEventListener('click', () => note.remove());
+  };
+  render();
+  if (window.i18n) window.i18n.on(() => { if (note.isConnected) render(); });
+  stage.appendChild(note);
+}
+
 if (wrap) start().catch(fallback2D);
 
 async function start() {
   const probe = document.createElement('canvas');
   const gl = probe.getContext('webgl2') || probe.getContext('webgl');
-  if (!gl) throw new Error('WebGL indisponível');
+  if (!gl) throw Object.assign(new Error('WebGL indisponível'), { noWebGL: true });
   const lose = gl.getExtension('WEBGL_lose_context');
   if (lose) lose.loseContext();
   const THREE = await import(THREE_URL);
