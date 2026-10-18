@@ -49,17 +49,13 @@
     'Soluções que construí para o dia a dia de uma escola. Os projetos internos são privados, então mostro só o essencial de cada um.':
       'Solutions I built for the day-to-day of a school. Internal projects are private, so I only show the essentials of each one.',
     'Fixados': 'Pinned',
-    '6 repositórios · 5 privados': '6 repositories · 5 private',
+    '4 repositórios · 3 privados': '4 repositories · 3 private',
     'Projeto privado': 'Private project',
     "Intranet da St. Paul's School: mais de 40 páginas para equipe e alunos, com agenda, calendário de provas, mural, organograma, campeonato das casas, RH e todo o ciclo de desenvolvimento profissional (PDP). Login Microsoft, dados do Microsoft Graph e do SharePoint e um assistente com IA.":
       "St. Paul's School intranet: 40+ pages for staff and pupils, with agenda, exam calendar, staff bulletin, org chart, house championship, HR and the full professional development cycle (PDP). Microsoft sign-in, Microsoft Graph and SharePoint data, and an AI assistant.",
     'Atualizado em 2026': 'Updated in 2026',
     'Painel do aluno dentro da intranet: matérias, boletim, pontuação das casas e mensagens pelo Teams, com login Microsoft e dados do SharePoint e do Microsoft Graph.':
       'Pupil dashboard inside the intranet: subjects, report card, house points and Teams messages, with Microsoft sign-in and data from SharePoint and Microsoft Graph.',
-    'Portal dedicado à disciplina de Química, reunindo conteúdos e materiais de estudo em um só lugar.':
-      'Portal dedicated to Chemistry, bringing content and study materials together in one place.',
-    'Sistema para organizar processos financeiros da escola: solicitações, fluxo de aprovações e acompanhamento em painéis.':
-      "System to organize the school's financial processes: requests, approval workflows and tracking dashboards.",
     "Portal institucional da Fundação St. Paul's em português e inglês: história, a escola, onboarding, centenário, treinamentos, relatórios anuais e equipe, com um widget de suporte escrito em TypeScript.":
       "The St. Paul's Foundation website in Portuguese and English: story, the school, onboarding, centenary, training, annual reports and people, with a support widget written in TypeScript.",
     'passe o mouse': 'hover me',

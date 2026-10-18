@@ -638,10 +638,8 @@
         print([
           `<span class="t-acc">01</span>  ${L('Intranet escolar  ', 'School intranet   ')}   <span class="t-dim">SharePoint · JavaScript · Microsoft Graph</span>`,
           '<span class="t-acc">02</span>  Student Dashboard    <span class="t-dim">SharePoint · JavaScript</span>',
-          `<span class="t-acc">03</span>  ${L('Portal de Química ', 'Chemistry portal  ')}   <span class="t-dim">SharePoint · JavaScript</span>`,
-          `<span class="t-acc">04</span>  ${L('Sistema financeiro', 'Finance system    ')}   <span class="t-dim">Power Apps · Power Automate</span>`,
-          `<span class="t-acc">05</span>  ${L('Portal da Fundação', 'Foundation portal ')}   <span class="t-dim">SharePoint · HTML · TypeScript</span>`,
-          `<span class="t-acc">06</span>  Letter Field         <span class="t-dim">Canvas 2D · ${L('ruído Perlin', 'Perlin noise')}</span>`,
+          `<span class="t-acc">03</span>  ${L('Portal da Fundação', 'Foundation portal ')}   <span class="t-dim">SharePoint · HTML · TypeScript</span>`,
+          `<span class="t-acc">04</span>  Letter Field         <span class="t-dim">Canvas 2D · ${L('ruído Perlin', 'Perlin noise')}</span>`,
           '',
           `<span class="t-dim">${L('🔒 Projetos internos: sem links públicos.', '🔒 Internal projects: no public links.')}</span>`,
           '',
