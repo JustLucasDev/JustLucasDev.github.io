@@ -51,8 +51,8 @@
     'Fixados': 'Pinned',
     '4 repositórios · 3 privados': '4 repositories · 3 private',
     'Projeto privado': 'Private project',
-    "Intranet da St. Paul's School: mais de 40 páginas para equipe e alunos, com agenda, calendário de provas, mural, organograma, campeonato das casas, RH e todo o ciclo de desenvolvimento profissional (PDP). Login Microsoft, dados do Microsoft Graph e do SharePoint e um assistente com IA.":
-      "St. Paul's School intranet: 40+ pages for staff and pupils, with agenda, exam calendar, staff bulletin, org chart, house championship, HR and the full professional development cycle (PDP). Microsoft sign-in, Microsoft Graph and SharePoint data, and an AI assistant.",
+    "Intranet da St. Paul's School: mais de 40 páginas para equipe e alunos, com agenda, calendário de provas, mural, organograma, campeonato das casas e RH.":
+      "St. Paul's School intranet: 40+ pages for staff and pupils, with agenda, exam calendar, staff bulletin, org chart, house championship and HR.",
     'Atualizado em 2026': 'Updated in 2026',
     'Painel do aluno dentro da intranet: matérias, boletim, pontuação das casas e mensagens pelo Teams, com login Microsoft e dados do SharePoint e do Microsoft Graph.':
       'Pupil dashboard inside the intranet: subjects, report card, house points and Teams messages, with Microsoft sign-in and data from SharePoint and Microsoft Graph.',
