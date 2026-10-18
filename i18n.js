@@ -209,10 +209,10 @@
   };
 
   const META = {
-    title: ['JustLucasDev — Desenvolvedor Full-Stack & Power Platform', 'JustLucasDev — Full-Stack & Power Platform Developer'],
+    title: ['JustLucasDev — Portfólio', 'JustLucasDev — Portfolio'],
     description: [
-      'Portfólio do Lucas, desenvolvedor full-stack e Power Platform em Guarulhos, São Paulo. Soluções digitais, integrações e interfaces cheias de detalhes.',
-      "Lucas's portfolio, a full-stack and Power Platform developer in Guarulhos, São Paulo. Digital solutions, integrations and interfaces full of detail.",
+      'Portfólio do Lucas: projetos, stack e a história na programação, que começou com um servidor de Minecraft.',
+      "Lucas's portfolio: projects, stack and the story in programming that started with a Minecraft server.",
     ],
   };
 
