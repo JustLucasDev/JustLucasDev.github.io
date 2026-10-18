@@ -51,17 +51,17 @@
     'Fixados': 'Pinned',
     '6 repositórios · 5 privados': '6 repositories · 5 private',
     'Projeto privado': 'Private project',
-    'Portal interno que reúne o dia a dia de uma escola: agenda, calendário, provas, comunicados, organograma, comunidade e painéis para alunos e equipe, com um módulo de desenvolvimento profissional.':
-      "Internal portal that brings a school's daily life together: schedule, calendar, exams, announcements, org chart, community and dashboards for students and staff, with a professional development module.",
+    "Intranet da St. Paul's School: mais de 40 páginas para equipe e alunos, com agenda, calendário de provas, mural, organograma, campeonato das casas, RH e todo o ciclo de desenvolvimento profissional (PDP). Login Microsoft, dados do Microsoft Graph e do SharePoint e um assistente com IA.":
+      "St. Paul's School intranet: 40+ pages for staff and pupils, with agenda, exam calendar, staff bulletin, org chart, house championship, HR and the full professional development cycle (PDP). Microsoft sign-in, Microsoft Graph and SharePoint data, and an AI assistant.",
     'Atualizado em 2026': 'Updated in 2026',
-    'Painel do aluno com matérias, boletim e pontuação das casas, integrado à intranet da escola.':
-      'Student dashboard with subjects, report card and house points, integrated with the school intranet.',
+    'Painel do aluno dentro da intranet: matérias, boletim, pontuação das casas e mensagens pelo Teams, com login Microsoft e dados do SharePoint e do Microsoft Graph.':
+      'Pupil dashboard inside the intranet: subjects, report card, house points and Teams messages, with Microsoft sign-in and data from SharePoint and Microsoft Graph.',
     'Portal dedicado à disciplina de Química, reunindo conteúdos e materiais de estudo em um só lugar.':
       'Portal dedicated to Chemistry, bringing content and study materials together in one place.',
     'Sistema para organizar processos financeiros da escola: solicitações, fluxo de aprovações e acompanhamento em painéis.':
       "System to organize the school's financial processes: requests, approval workflows and tracking dashboards.",
-    'Portal institucional de uma fundação educacional, com páginas de conteúdo, envio de arquivos e suporte.':
-      'Institutional portal for an educational foundation, with content pages, file uploads and support.',
+    "Portal institucional da Fundação St. Paul's em português e inglês: história, a escola, onboarding, centenário, treinamentos, relatórios anuais e equipe, com um widget de suporte escrito em TypeScript.":
+      "The St. Paul's Foundation website in Portuguese and English: story, the school, onboarding, centenary, training, annual reports and people, with a support widget written in TypeScript.",
     'passe o mouse': 'hover me',
     'Textura generativa com vento procedural e ondas de choque no clique. É o fundo deste site.':
       "Generative texture with procedural wind and shockwaves on click. It's the background of this site.",
