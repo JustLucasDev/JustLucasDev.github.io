@@ -1,0 +1,10 @@
+# configurações locais do editor/assistente
+.claude/
+
+# vídeo do LinkedIn (não faz parte do site)
+video/
+
+# sistema
+Thumbs.db
+desktop.ini
+.DS_Store
