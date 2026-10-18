@@ -3,7 +3,6 @@
 Portfólio pessoal
 
 **Site:** https://justlucasdev.github.io
-HTML, CSS e JavaScript puro, sem frameworks:
 
 - abertura em código com autocompletar estilo VS Code
 - fundo de letras generativo (canvas) com ondas no clique
