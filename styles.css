@@ -2551,3 +2551,21 @@ html { scrollbar-width: thin; scrollbar-color: rgba(121, 121, 121, 0.45) transpa
 .repo[data-href] { cursor: pointer; }
 .repo[data-href] .repo-cover { cursor: pointer; }
 .repo[data-href]:hover .repo-link { text-decoration: underline; text-underline-offset: 3px; }
+
+/* card público como link de verdade: o título se estica por cima do card todo (a capa fica acima, com o efeito, e abre pelo JS) */
+.repo[data-href] { position: relative; transition: border-color 0.25s, background 0.25s, translate 0.3s var(--ease), box-shadow 0.3s, opacity 0.9s var(--ease) var(--d, 0s); }
+.repo[data-href] .repo-link::after { content: ""; position: absolute; inset: 0; z-index: 1; border-radius: inherit; }
+.repo[data-href] .repo-cover { z-index: 2; }
+.repo[data-href] .repo-foot a, .repo[data-href] .repo-foot button, .repo[data-href] .repo-vis { position: relative; z-index: 2; }
+.repo[data-href]:hover { translate: 0 -4px; box-shadow: 0 18px 40px -20px rgba(26, 173, 255, 0.45); }
+.repo[data-href] .repo-top::after {
+  content: "↗";
+  margin-left: 4px;
+  color: var(--accent);
+  font-family: var(--mono);
+  font-size: 15px;
+  opacity: 0;
+  translate: -4px 4px;
+  transition: opacity 0.25s, translate 0.25s var(--ease);
+}
+.repo[data-href]:hover .repo-top::after { opacity: 1; translate: 0 0; }
