@@ -168,7 +168,6 @@
     'Copiar': 'Copy',
     'Abrir ↗': 'Open ↗',
     'Enviar email': 'Send email',
-    'JustLucasDev. Feito à mão com HTML, CSS & JavaScript puro.': 'JustLucasDev. Handcrafted with plain HTML, CSS & JavaScript.',
     'Voltar ao topo ↑': 'Back to top ↑',
     'navegar': 'navigate',
     'abrir': 'open',
