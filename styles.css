@@ -2542,3 +2542,9 @@ html { scrollbar-width: thin; scrollbar-color: rgba(121, 121, 121, 0.45) transpa
 ::selection { background: rgba(38, 79, 120, 0.9); color: #fff; } /* seleção azul do editor */
 
 
+
+/* repositório público: título leva ao GitHub e link para a demo */
+.repo-link { color: inherit; text-decoration: none; }
+.repo-link:hover { text-decoration: underline; text-underline-offset: 3px; }
+.repo-gh { color: var(--muted); text-decoration: none; transition: color 0.2s; }
+.repo-gh:hover { color: var(--accent); }
