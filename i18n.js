@@ -47,8 +47,8 @@
     // projetos
     '02 — Projetos': '02 — Projects',
     'Trabalhos selecionados.': 'Selected work.',
-    'Soluções que construí para o dia a dia de uma escola. Os projetos internos são privados, então mostro só o essencial de cada um.':
-      'Solutions I built for the day-to-day of a school. Internal projects are private, so I only show the essentials of each one.',
+    'Projetos que construí no trabalho e por conta própria. Os internos são privados, então mostro só o essencial de cada um.':
+      'Projects I've built at work and on my own. The internal ones are private, so I only show the essentials of each.',
     'Fixados': 'Pinned',
     '5 repositórios · 3 privados': '5 repositories · 3 private',
     '// você está aqui': '// you are here',
