@@ -586,7 +586,7 @@ function build(THREE) {
   const STORY = [
     [0.4, '<Lucas> Eu tinha 15 anos. Antes de qualquer empresa ou faculdade, teve o Minecraft.', '<Lucas> I was 15. Before any job or college, there was Minecraft.'],
     [1.5, '<Lucas> Eu queria ter o meu próprio servidor e, para isso, fui atrás de aprender Java.', '<Lucas> I wanted my own server, so I set out to learn Java.'],
-    [2.8, '<Lucas> Entre configurações, plugins e muitos erros no console, descobri que eu gostava tanto de fazer o jogo funcionar quanto de jogar.', '<Lucas> Between configs, plugins and countless console errors, I found out I enjoyed making the game work as much as playing it.'],
+    [2.8, '<Lucas> Entre configurações, plugins e muitos erros no console, percebi que gostava mais de ver as linhas de código e fazer o servidor rodar do que de jogar.', '<Lucas> Between configs, plugins and countless console errors, I realized I liked reading lines of code and getting the server running more than actually playing.'],
     [4.2, '<Lucas> Foi o meu primeiro portal para a programação.', '<Lucas> It was my first portal into programming.'],
   ];
 

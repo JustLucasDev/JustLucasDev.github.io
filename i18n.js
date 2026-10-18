@@ -201,7 +201,7 @@
   const HTML = {
     'hero-sub': '<strong>Full-stack</strong> and <strong>Power Platform</strong> developer. I turn ideas into fast, accessible solutions full of detail.',
     'about-lead': 'I like building things that work <em class="serif">and</em> delight: from the database to the last pixel of the animation.',
-    'origin-text': '<p>At <strong>15</strong>, before any job or college, there was <strong>Minecraft</strong>. I wanted my own server, and to get there I set out to learn <strong>Java</strong>.</p><p>Between configs, plugins and countless console errors, I found out I enjoyed making the game work as much as playing it. It was my first portal into programming.</p>',
+    'origin-text': '<p>At <strong>15</strong>, before any job or college, there was <strong>Minecraft</strong>. I wanted my own server, and to get there I set out to learn <strong>Java</strong>.</p><p>Between configs, plugins and countless console errors, I realized I liked reading lines of code and getting the server running more than actually playing. It was my first portal into programming.</p>',
     'term-intro': 'This portfolio also works from the terminal. Type <code>help</code> to get started.',
     'contact-title': 'Find me<br />right <em class="serif shine">here</em>.',
   };
