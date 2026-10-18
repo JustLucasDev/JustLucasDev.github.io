@@ -2665,3 +2665,9 @@ html { scrollbar-width: thin; scrollbar-color: rgba(121, 121, 121, 0.45) transpa
 @keyframes cue-drop { 0% { top: -12px; } 70%, 100% { top: 38px; } }
 @media (prefers-reduced-motion: reduce) { .sc-track i { animation: none; top: 13px; } }
 @media (max-height: 620px) { .scroll-cue { display: none; } }
+
+/* rodapé: "voltar ao topo" em código */
+.to-top { font-family: var(--mono); font-size: 13px; }
+.to-top .tt-n { color: #b5cea8; } /* número no VS Code */
+.to-top .tt-arrow { display: inline-block; margin-left: 4px; color: var(--accent); transition: translate 0.25s var(--ease); }
+.to-top:hover .tt-arrow { translate: 0 -3px; }

@@ -168,7 +168,7 @@
     'Copiar': 'Copy',
     'Abrir ↗': 'Open ↗',
     'Enviar email': 'Send email',
-    'Voltar ao topo ↑': 'Back to top ↑',
+    'Voltar ao topo': 'Back to top',
     'navegar': 'navigate',
     'abrir': 'open',
   };
