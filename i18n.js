@@ -52,8 +52,8 @@
     'Fixados': 'Pinned',
     '5 repositórios · 3 privados': '5 repositories · 3 private',
     '// você está aqui': '// you are here',
-    'Este portfólio: feito do zero com HTML, CSS e JavaScript puro, com fundo generativo, cena em Three.js, terminal navegável e versão em inglês.':
-      'This portfolio: built from scratch with plain HTML, CSS and JavaScript, with a generative background, a Three.js scene, a navigable terminal and an English version.',
+    'O site que você está vendo agora: meus projetos, minha stack e a história que começou no Minecraft, tudo num só lugar.':
+      "The site you're looking at right now: my projects, my stack and the story that started in Minecraft, all in one place.",
     'Projeto privado': 'Private project',
     "Intranet da St. Paul's School: mais de 40 páginas para equipe e alunos, com agenda, calendário de provas, mural, organograma, campeonato das casas e RH.":
       "St. Paul's School intranet: 40+ pages for staff and pupils, with agenda, exam calendar, staff bulletin, org chart, house championship and HR.",
