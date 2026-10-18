@@ -20,6 +20,7 @@
     'Trabalhando na Computécnica Tecnologia': 'Working at Computécnica Tecnologia',
     '// olá, eu sou o Lucas': "// hi, I'm Lucas",
     'Ver projetos': 'View projects',
+    '// role para descobrir': '// scroll to discover',
     'Fale comigo': 'Get in touch',
 
     // sobre
@@ -194,12 +195,13 @@
     'Comando do terminal': 'Terminal command',
     'Menu de comandos': 'Command menu',
     'Idioma': 'Language',
+    'Role para descobrir': 'Scroll to discover',
     'Para onde vamos? Digite um comando…': 'Where to? Type a command…',
   };
 
   // blocos com tags no meio do texto: o HTML inteiro é trocado (data-i18n="chave")
   const HTML = {
-    'hero-sub': '<strong>Full-stack</strong> and <strong>Power Platform</strong> developer. I turn ideas into fast, accessible solutions full of detail.',
+    'hero-sub': 'I build solutions for the <strong>web</strong> and <strong>Microsoft 365</strong> that make everyday work simpler, from the code to the last detail of the interface.',
     'about-lead': 'I like building things that work <em class="serif">and</em> delight: from the database to the last pixel of the animation.',
     'origin-text': '<p>At <strong>15</strong>, before any job or college, there was <strong>Minecraft</strong>. I wanted my own server, and to get there I set out to learn <strong>Java</strong>.</p><p>Between configs, plugins and countless console errors, I realized I liked reading lines of code and getting the server running more than actually playing. It was my first portal into programming.</p>',
     'term-intro': 'This portfolio also works from the terminal. Type <code>help</code> to get started.',

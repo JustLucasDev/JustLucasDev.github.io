@@ -334,6 +334,7 @@
   // --------------------------------------------------------------- scroll: progresso, nav, fundo
   const progress = $('.progress');
   const nav = $('#nav');
+  const scrollCue = $('.scroll-cue');
   const bgLayer = $('.bg-layer');
   let scrollQueued = false;
   function onScroll() {
@@ -342,6 +343,7 @@
     const max = document.documentElement.scrollHeight - innerHeight;
     progress.style.setProperty('--p', max > 0 ? (y / max).toFixed(4) : 0);
     nav.classList.toggle('scrolled', y > 20);
+    if (scrollCue) scrollCue.classList.toggle('gone', y > 40);
     bgLayer.classList.toggle('dim', y > innerHeight * 0.55);
   }
   window.addEventListener('scroll', () => {
