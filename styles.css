@@ -2548,3 +2548,6 @@ html { scrollbar-width: thin; scrollbar-color: rgba(121, 121, 121, 0.45) transpa
 .repo-link:hover { text-decoration: underline; text-underline-offset: 3px; }
 .repo-gh { color: var(--muted); text-decoration: none; transition: color 0.2s; }
 .repo-gh:hover { color: var(--accent); }
+.repo[data-href] { cursor: pointer; }
+.repo[data-href] .repo-cover { cursor: pointer; }
+.repo[data-href]:hover .repo-link { text-decoration: underline; text-underline-offset: 3px; }

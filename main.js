@@ -499,6 +499,15 @@
     window.addEventListener('resize', () => { clearTimeout(rt); rt = setTimeout(build, 200); });
   });
 
+  // --------------------------------------------------------------- cards de repositório público: o card inteiro abre o GitHub
+  // (clique em vez de uma camada por cima, para não quebrar o efeito de passar o mouse na capa)
+  $$('.repo[data-href]').forEach((card) => {
+    card.addEventListener('click', (e) => {
+      if (e.target.closest('a, button')) return; // links e botões do card fazem a própria ação
+      if (window.getSelection().toString()) return; // estava selecionando texto
+      window.open(card.dataset.href, '_blank', 'noopener');
+    });
+  });
   // --------------------------------------------------------------- toast + copiar email
   const toast = $('#toast');
   let toastTimer = 0;
