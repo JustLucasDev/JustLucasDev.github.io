@@ -49,7 +49,10 @@
     'Soluções que construí para o dia a dia de uma escola. Os projetos internos são privados, então mostro só o essencial de cada um.':
       'Solutions I built for the day-to-day of a school. Internal projects are private, so I only show the essentials of each one.',
     'Fixados': 'Pinned',
-    '4 repositórios · 3 privados': '4 repositories · 3 private',
+    '5 repositórios · 3 privados': '5 repositories · 3 private',
+    '// você está aqui': '// you are here',
+    'Este portfólio: feito do zero com HTML, CSS e JavaScript puro, com fundo generativo, cena em Three.js, terminal navegável e versão em inglês.':
+      'This portfolio: built from scratch with plain HTML, CSS and JavaScript, with a generative background, a Three.js scene, a navigable terminal and an English version.',
     'Projeto privado': 'Private project',
     "Intranet da St. Paul's School: mais de 40 páginas para equipe e alunos, com agenda, calendário de provas, mural, organograma, campeonato das casas e RH.":
       "St. Paul's School intranet: 40+ pages for staff and pupils, with agenda, exam calendar, staff bulletin, org chart, house championship and HR.",

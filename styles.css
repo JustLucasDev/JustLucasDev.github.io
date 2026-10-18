@@ -2569,3 +2569,34 @@ html { scrollbar-width: thin; scrollbar-color: rgba(121, 121, 121, 0.45) transpa
   transition: opacity 0.25s, translate 0.25s var(--ease);
 }
 .repo[data-href]:hover .repo-top::after { opacity: 1; translate: 0 0; }
+
+/* card largo (o próprio portfólio) e capa em código */
+.repo-wide { grid-column: 1 / -1; }
+.repo-wide .repo-cover { aspect-ratio: auto; height: clamp(150px, 18vw, 210px); }
+.visual-code {
+  display: grid;
+  place-items: center;
+  background:
+    radial-gradient(ellipse 60% 70% at 50% 50%, rgba(26, 173, 255, 0.12), transparent 70%),
+    radial-gradient(circle at 1px 1px, rgba(255, 255, 255, 0.06) 1px, transparent 0) 0 0 / 18px 18px,
+    #111214;
+}
+.visual-code pre {
+  margin: 0;
+  font-family: "Fira Code", var(--mono);
+  font-size: clamp(20px, 3vw, 38px);
+  font-weight: 500;
+  line-height: 1.35;
+  letter-spacing: -0.03em;
+  color: #d4d4d4;
+  transition: scale 0.5s var(--ease);
+}
+.vc-c { font-size: 0.5em; color: #6a9955; letter-spacing: 0; }
+.vc-caret { display: inline-block; width: 0.08em; height: 0.9em; margin-left: 0.08em; vertical-align: -0.1em; background: #aeafad; animation: blink 1s steps(1) infinite; }
+.repo-wide:hover .visual-code pre { scale: 1.04; }
+.repo-foot { flex-wrap: wrap; row-gap: 6px; }
+.repo-foot > * { white-space: nowrap; }
+@media (max-width: 520px) {
+  .repo-wide .repo-owner { display: none; } /* nome longo: no celular fica só o repositório */
+}
+@media (max-width: 520px) { .repo-wide h3 { font-size: 13px; } }

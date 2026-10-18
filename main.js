@@ -640,6 +640,7 @@
           '<span class="t-acc">02</span>  Student Dashboard    <span class="t-dim">SharePoint · JavaScript</span>',
           `<span class="t-acc">03</span>  ${L('Portal da Fundação', 'Foundation portal ')}   <span class="t-dim">SharePoint · HTML · TypeScript</span>`,
           `<span class="t-acc">04</span>  Letter Field         <span class="t-dim">Canvas 2D · ${L('ruído Perlin', 'Perlin noise')}</span>`,
+          `<span class="t-acc">05</span>  ${L('Este portfólio     ', 'This portfolio     ')}   <span class="t-dim">HTML · CSS · JavaScript · Three.js</span>`,
           '',
           `<span class="t-dim">${L('🔒 Projetos internos: sem links públicos.', '🔒 Internal projects: no public links.')}</span>`,
           '',
